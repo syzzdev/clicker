@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Runomic;
+    src: url(Runomic.ttf);
+}
+body {
+    background-color: rgb(56, 56, 54);
+    color: #000000;
+    font-family: "Runomic";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#tekth {
+    color:rgb(9, 58, 219);
+    font-size: 150px;
+    -webkit-text-stroke: 0.1px black;
+}
+p {
+    font-size: 50px;
+}
+#score {
+    color: rgb(207, 49, 49);
+    -webkit-text-stroke: 1.5px black;
+}
+#tap {
+    width: 180px;
+    height: 100px;
+    font-size: 40px;
+    font-family: "Runomic";
+    background-color: hsl(160, 100%, 75%);
+    border: 5px solid black;
+}
+#tap:active{
+    transform: scale(0.95);
+    background-color: rgb(34, 114, 87);
+}
